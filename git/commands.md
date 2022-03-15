@@ -28,13 +28,17 @@ origin  https://github.com/sshelake25/thbs_mean_mern.git (push)
 
 
 ----------------------------------------
+
 1. Stage the files 
-
-`git add .`
-
+   `git add .`
 2. To commit files
-   `git commit -m "added first git commands file"
-
+   `git commit -m "added first git commands file"`
 3. Push remote repo
+ git push --set-upstream mythbs main
+    `git push origin main`
 
- git push origin main
+----------------- Setup global config for user ---------------
+
+git config --list
+git config user.email "shelakesurekha@gmail.com"
+git config user.name ""
